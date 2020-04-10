@@ -1,7 +1,6 @@
 len([],Res):- Res is 0.
 len([H|T],Res):-len(T,L), Res is L +1.
 
-
 init:- 
 	length(ROUND,1),
 	assert(round(ROUND)).
