@@ -1,8 +1,4 @@
 
-
-
-
-
 init:- 
 	setof(Game, X^game(Game,X),GameList),
 	assert(gameList(GameList)).
